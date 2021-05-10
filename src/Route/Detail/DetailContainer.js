@@ -32,11 +32,9 @@ class DetailContainer extends React.Component {
     let result = null;
     try {
       if (isMovie) {
-        const { data } = await moviesApi.movieDetail(parseId);
-        result = data;
+        ({ data: result } = await moviesApi.movieDetail(parseId));
       } else {
-        const { data } = await tvApi.showDetail(parseId);
-        result = data;
+        ({ data: result } = await tvApi.showDetail(parseId));
       }
       console.log(result);
     } catch (error) {
