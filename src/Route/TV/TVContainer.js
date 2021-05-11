@@ -22,7 +22,6 @@ class TVContainer extends React.Component {
       const {
         data: { results: airingToday },
       } = await tvApi.airingToday();
-
       this.setState({
         topRated,
         popular,

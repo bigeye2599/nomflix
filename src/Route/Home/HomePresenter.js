@@ -1,4 +1,5 @@
 import Loader from "Components/Loader";
+import Message from "Components/Message";
 import Section from "Components/Section";
 import PropTypes from "prop-types";
 import styled from "styled-components";
@@ -33,6 +34,7 @@ const HomePresenter = ({ nowPlaying, popular, upcoming, error, loading }) =>
           ))}
         </Section>
       )}
+      {error && <Message error="#e74c3c" text={error} />}
     </Container>
   );
 
