@@ -19,3 +19,11 @@ Learning React and ES6 building a Moive Discovery App.
 - [x] TV Show Detail
 - [x] Movie Detail
 - [x] Search (Moive, TV)
+
+## Code Challenges
+
+- [ ] IMDB Link
+- [ ] Tabs inside of Moive / Show Details (YT Videos, Production Company & Countries)
+- [ ] Collections Link
+- [ ] /collections Route
+- [ ] On TV Show, show seasons and creators
