@@ -32,7 +32,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://bigeye2599.github.io/nomflix",
+  "homepage": "https://condescending-minsky-f955b1.netlify.app",
   "browserslist": {
     "production": [
       ">0.2%",
